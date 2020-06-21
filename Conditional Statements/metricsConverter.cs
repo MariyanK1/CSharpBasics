@@ -24,6 +24,8 @@ after the decimal point.
 Sample case:
 Input:
 12
+mm
+m
 Output:
 0.012
 */
