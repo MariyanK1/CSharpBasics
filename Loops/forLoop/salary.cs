@@ -45,9 +45,9 @@ namespace Salary
             double salary = double.Parse(Console.ReadLine());
 
             double restSalary = salary;
-            double facebookForfeit = 150;
-            double instagramForfeit = 100;
-            double redditForfeit = 50;
+            double facebookFine = 150;
+            double instagramFine = 100;
+            double redditFine = 50;
 
             for (int i = 0; i < numberTabs && restSalary > 0; i++)
             {
@@ -55,15 +55,15 @@ namespace Salary
                 
                 if (sites == "Facebook")
                 {
-                    restSalary -=  facebookForfeit;
+                    restSalary -=  facebookFine;
                 }
                 else if (sites == "Instagram")
                 {
-                    restSalary -= instagramForfeit;
+                    restSalary -= instagramFFine;
                 }
                 else if (sites == "Reddit")
                 {
-                    restSalary -= redditForfeit;
+                    restSalary -= redditFine;
                 }
             }
             if (restSalary <= 0)
