@@ -3,6 +3,20 @@ Lily is already N years old. She receives a gift for each of her birthdays. For 
 
 Lily sold the toys received over the years, each for P BGN and added the amount to the money saved. With the money she wanted to buy a washing machine for X leva. Write a program to calculate how much money she has raised and whether she has enough to buy a washing machine.
 
+Input
+The program reads 3 numbers entered by the user on separate lines:
+⦁ Lily's age - an integer in the range [1 ... 77]
+⦁ The price of the washing machine
+* The price of toys
+
+Output
+Print one line on the console:
+⦁ If Lily's money is enough:
+⦁ “Yes! {N} ”- where N is the balance of money after the purchase
+⦁ If the money is not enough:
+⦁ “No! {M} “- where M is the amount that is not enough
+⦁ The numbers N and M must be formatted to the second decimal place.
+
 */
 
 using System;
