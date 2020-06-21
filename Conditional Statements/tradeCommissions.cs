@@ -9,7 +9,17 @@ Write a console program that reads the city name (string) and sales volume (real
 and calculates and displays the amount of the trade commission according to the table above.
 
 Display the result formatted to 2 digits after the decimal point. 
-In case of invalid city or sales volume (negative number) print "error".*/
+In case of invalid city or sales volume (negative number) print "error".
+
+Sample case:
+
+In:
+Sofia
+1500
+
+Out:
+120.00
+*/
 
 using System;
 using System.Collections.Generic;
