@@ -34,3 +34,74 @@ Without
 Out:
 You bought 10 cups of Espresso for 4.39 lv.
 */
+
+using System;
+class Program
+{
+    static void Main(string[] args)
+    {
+        string drinkName = Console.ReadLine();
+        string sugar = Console.ReadLine();
+        int drinkNum = int.Parse(Console.ReadLine());
+        double price = 0;
+        switch (drinkName)
+        {
+            case "Espresso":
+                switch (sugar)
+                {
+                    case "Without":
+                        price += 0.90 * 0.65 * drinkNum;
+                        break;
+                    case "Normal":
+                        price += 1 * drinkNum;
+                        break;
+                    case "Extra":
+                        price += 1.20 * drinkNum;
+                        break;
+                }
+                if (drinkNum > 5)
+                {
+                    price *= 0.75;
+                }
+                break;
+
+            case "Cappuccino":
+                switch (sugar)
+                {
+                    case "Without":
+                        price += 1 * 0.65 * drinkNum;
+                        break;
+                    case "Normal":
+                        price += 1.20 * drinkNum;
+                        break;
+                    case "Extra":
+                        price += 1.60 * drinkNum;
+                        break;
+                }
+                break;
+
+            case "Tea":
+                switch (sugar)
+                {
+                    case "Without":
+                        price += 0.50 * 0.65 * drinkNum;
+                        break;
+                    case "Normal":
+                        price += 0.60 * drinkNum;
+                        break;
+                    case "Extra":
+                        price += 0.70 * drinkNum;
+                        break;
+                }
+                break;
+        }
+
+        if (price > 15)
+        {
+            price *= 0.80;
+        }
+
+        Console.WriteLine($"You bought {drinkNum} cups of {drinkName} for {price:f2} lv.");
+    }
+
+}
