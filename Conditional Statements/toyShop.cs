@@ -19,11 +19,21 @@ Toy prices:
 *** Minion - BGN 8.20.
 *** Truck - BGN 2
 
-If the ordered toys are 50 or more, the store makes a 25% discount on the total price. From the won
+If the ordered toys are 50 or more, the store makes a 25% discount on the total price. From the earned
 money Petya has to give 10% for the rent of the store. To calculate whether the money will be enough for her to go to
 the trip.
 
-The following is printed on the console:
+Input:
+6 lines are read from the console:
+
+     Trip price - real number in the interval [1.00… 10000.00]
+     Number of puzzles - integer in the range [0… 1000]
+     Number of talking dolls - integer in the interval [0… 1000]
+     Number of teddy bears - integer in the range [0… 1000]
+     Number of minions - an integer in the interval [0… 1000]
+     Number of trucks - integer in the range [0… 1000]
+
+Output:
 
     If the money is enough it is printed:
         "Yes! {Remaining money} lv left."
