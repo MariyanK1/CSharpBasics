@@ -12,10 +12,11 @@ Depending on the number of days he will stay in the hotel (example: 11 days = 10
 and the type of room he will choose, he can enjoy different discounts.
 
 The discounts are as follows:
-room type less than 10 days between 10 and 15 days more than 15 days
-room for one person does not use a reduction does not use a reduction does not use a reduction
-apartment 30% of the final price 35% of the final price 50% of the final price
-president apartment 10% of the final price 15% of the final price 20% of the final price
+
+room type           | less than 10 days    | between 10 and 15 days| more than 15 days|
+room for one person |    No discount       |         No discount   |     No discount|
+apartment           |30% of the final price| 35% of the final price| 50% of the final price|
+president apartment	|10% of the final price| 15% of the final price|20% of the final price|
 
 After the stay, Atanas' rating for the hotel's services can be positive or negative.
 If his assessment is positive, Atanas adds 25% of it to the price with the already deducted discount. 
